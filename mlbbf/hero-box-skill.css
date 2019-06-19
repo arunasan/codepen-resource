@@ -1,0 +1,60 @@
+:root {
+  --lightest-color: #ADD7F6;
+  --light-color: #65a6ff;
+  --normal-color: #1f6dca;
+  --darker-color: #2667FF;
+  --darkest-color: #3B28CC;
+}
+
+.skill-box-wrapper {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: 3px solid var(--normal-color);
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.skill-box-header {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  padding: 10px;
+}
+
+.skill-box-detail {
+  display: flex;
+  padding: 10px;
+}
+
+.skill-middle {
+  display: flex;
+  width: 100%;
+}
+
+/*color*/
+.aoe, .damage {
+  background: #bc3737;
+}
+
+.blink {
+  background: #ab30e3;
+}
+
+.buff, .conceal, .morph, .shield, .speed-up, .summon {
+  background: #5bd0cf; /*#45C9C7*/
+}
+
+.burst {
+  background: #bb7643;
+}
+
+.cc {
+  background: #c1b040;
+}
+
+.heal {
+  background: #43bb3b;
+}

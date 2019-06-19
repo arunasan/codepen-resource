@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Test Template</title>
+  <link rel="stylesheet" href="hero-box-skill.css" />
+</head>
+
+<body>
+  <div class="skill-box-wrapper">
+    <div class="skill-box-header">
+      <div><span class="skill-name">{{{skill-name}}}</span></div>
+      <div>
+        <div class="skill-parameter">
+          <span>COOLDOWN: </span><span>{{{cooldown}}}</span>
+          <span>COST: </span><span>{{{cost}}}</span><span>{{{cost-type}}}</span>
+        </div>
+        <div>
+          <div class="skill-type {{{color1}}}">{{{type1}}}</div>
+          <div class="skill-type {{{color2}}}">{{{type2}}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="skill-box-detail">
+      <div><div class="skill-icon">[[file]]</div></div>
+      <div class="skill-middle">
+        <div class="skill-description">{{{description}}}</div>
+        <div class="skill-parameter">
+          <span>{{{param1}}}: </span><br><span>{{{value1}}}</span><br>
+          <span>{{{param1}}}: </span><br><span>{{{value1}}}</span><br>
+          <span>{{{param1}}}: </span><br><span>{{{value1}}}</span><br>
+          <span>{{{param1}}}: </span><br><span>{{{value1}}}</span><br>
+          <span>{{{param1}}}: </span><br><span>{{{value1}}}</span><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
